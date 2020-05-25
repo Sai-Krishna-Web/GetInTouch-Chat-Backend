@@ -14,7 +14,7 @@ change port number in config to avoid conflicts if needed.
 
 ### `node server\chat-server.js`
 
-To run your actuall server which will allow you to connect web-socket on port  [http://localhost:8080](http://localhost:8080)
+To run your actuall server which will allow you to connect web-socket on port  [ws://localhost:8080](ws://localhost:8080)
 
 The restart node server if you make edits in server files.<br />
 You will also see websocket messages and errors in the node console.
