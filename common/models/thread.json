@@ -1,0 +1,28 @@
+{
+  "name": "Thread",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "LastUpdated": {
+      "type": "date"
+    },
+    "users": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {
+    "Message":{
+      "type":"hasMany",
+      "model":"Message",
+      "foreignKey":""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
